@@ -1,0 +1,7 @@
+---
+resources:
+- name: api-build-scripts
+  type: git
+  source:
+    uri: https://github.com/CliveCalmeyerTW/api-build-scripts.git
+    branch: master
