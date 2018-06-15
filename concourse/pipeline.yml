@@ -32,5 +32,8 @@ jobs:
   plan:
   - get: api-build-scripts
   - get: address_book_go
+  - get: chi
+  - get: render
+  - get: pq
   - task: build-run-api
     file: api-build-scripts/concourse/build-run-api.yml
