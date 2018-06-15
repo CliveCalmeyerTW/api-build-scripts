@@ -5,3 +5,8 @@ resources:
   source:
     uri: https://github.com/CliveCalmeyerTW/api-build-scripts.git
     branch: master
+- name: address_book_go
+  type: git
+  source:
+    uri: https://github.com/CliveCalmeyerTW/address_book_go.git
+    branch: master
