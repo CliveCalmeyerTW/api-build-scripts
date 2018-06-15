@@ -11,4 +11,4 @@ inputs:
   path: gopath/src/github.com/CliveCalmeyerTW/address_book_go
 
 run:
-  path: github.com/CliveCalmeyerTW/api-build-scripts/concourse/build-run-api.sh
+  path: api-build-scripts/concourse/build-run-api.sh
