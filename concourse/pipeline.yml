@@ -10,3 +10,12 @@ resources:
   source:
     uri: https://github.com/CliveCalmeyerTW/address_book_go.git
     branch: master
+
+jobs:
+- name: build-run-api
+  public: true
+  plan:
+  - get: api-build-scripts
+  - get: address_book_go
+  - task: build-run-api
+    file: api-build-scripts/concourse/build-run-api.yml
