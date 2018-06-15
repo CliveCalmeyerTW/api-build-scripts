@@ -10,5 +10,4 @@ go build github.com/go-chi/render
 go build github.com/lib/pq
 
 go build
-go install
-address_book_go
+./address_book_go
