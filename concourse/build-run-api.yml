@@ -9,6 +9,12 @@ inputs:
 - name: api-build-scripts
 - name: address_book_go
   path: gopath/src/github.com/CliveCalmeyerTW/address_book_go
+- name: chi
+  path: gopath/src/github.com/go-chi/chi
+- name: render
+  path: gopath/src/github.com/go-chi/render
+- name: pq
+  path: gopath/src/github.com/lib/pq
 
 run:
   path: api-build-scripts/concourse/build-run-api.sh

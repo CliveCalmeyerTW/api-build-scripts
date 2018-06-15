@@ -10,6 +10,21 @@ resources:
   source:
     uri: https://github.com/CliveCalmeyerTW/address_book_go.git
     branch: master
+- name: chi
+  type: git
+  source:
+    uri: https://github.com/go-chi/chi.git
+    branch: master
+- name: render
+  type: git
+  source:
+    uri: https://github.com/go-chi/render.git
+    branch: master
+- name: pq
+  type: git
+  source:
+    uri: https://github.com/lib/pq.git
+    branch: master
 
 jobs:
 - name: build-run-api
